@@ -1,0 +1,84 @@
+.btn {
+    background-color: #f0c14b;
+    border: rgb(148, 125, 61);
+    width: 100%;
+    color: black;
+    background: rgb(243, 222, 165);
+    background: linear-gradient(180deg, rgba(243, 222, 165, 1) 21%, rgba(238, 210, 136, 1) 41%, rgba(234, 198, 103, 1) 55%);
+}
+
+.btn:hover {
+    background-color: rgb(233, 195, 96);
+    opacity: 0.8;
+    color: black;
+}
+
+.button {
+    background-color: #f0c14b;
+    border: rgb(148, 125, 61);
+    width: 33%;
+    color: black;
+    background: rgb(240, 240, 240);
+    background: linear-gradient(180deg, rgba(240, 240, 240, 1) 9%, rgba(219, 219, 219, 1) 63%, rgba(193, 193, 193, 1) 100%);
+}
+
+.button:hover {
+    background-color: rgb(233, 195, 96);
+    opacity: 0.8;
+    color: black;
+}
+
+.titulo {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.relleno {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: normal;
+}
+
+.relleno2 {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.enlaces:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+.enlaces2 {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.enlaces2:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+.enlaces3 {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+}
+
+.enlaces3:hover {
+    text-decoration: none;
+    color: #000000;
+}

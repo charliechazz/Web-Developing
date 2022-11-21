@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.slide{
+    width: 100vw;
+}
+
+
+
+p{
+    font-style: normal;
+    font-weight: lighter;
+}
+
+
+.Titulo{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbarprincipal{
+    background: #232f3e;
+    height: 75px;
+    width: 100vw;
+    position: absolute;
+}
+
+
+nav ul{
+    margin-left: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 65px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    border-radius: 3px ;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    transition: .25s;
+}
+
+.logoprincipal{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    height: 50px;
+}
+
+
+.btnenviar{
+    margin-top: 16px;
+    position: absolute;
+    background-color: #febd69;
+    border-bottom: 0;
+    border-radius: 5px;
+    margin-left: -5vh;
+}
+
+
+.barrabusqueda{
+    width:60vw; 
+    height:35px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:300px) and (max-width:1489px) {
+    .itemcardInformProduct{
+        width: 10vw;
+    }
+}
+
+/*modelo base de producto*/
+.itemcardImagenProducto{
+    
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #00000000;
+    margin: 15px;
+   
+}
+
+
+
+.itemcardInformProduct{
+    width: 240px;
+    height:450px;
+    text-align: justify;
+    background: #ffffff;
+    border: 1px solid #000000f1;
+    margin: 15px;
+    padding: 10px;
+}
+
+.itemcardDescripcionProducto{
+    width: 800px;
+    height:450px;
+    text-align: justify;
+    background: #ffffff;
+    border: 1px solid #00000000;
+    margin: 15px;
+}
+
+.contcardsProducto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/*modelo base de producto*/
+
+/*Busqueda Articulo*/
+.contcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemcard {
+    width: 340px;
+    height:470px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #00000033;
+    margin: 15px;
+  }
+
+.itemcard img{
+    width: 80%;
+    height: 65%;
+}
+
+
+.contcards .itemcard h4{
+    font-weight: 700;
+}
+
+.contcards .itemcard p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contcards .itemcard a{
+    font-weight: 100;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+/*Busqueda Articulo*/
+
+
+@media screen and (min-width:600px) and (max-width:1200px) {
+    .barrabusqueda{
+        width: 30vw;
+    }
+
+    .itemcardInformProduct{
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1000px) {
+    .itemcardInformProduct{
+        width: 100vw;
+    }
+}
+
+
+/*
+.containercard{
+    width:100vw;
+    max-width: 100vw;
+    height: 500px;
+    /*display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.containercard .card{
+    
+    justify-content: left;
+    width: 330px;
+    height:470px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.2);
+    margin: 40px;
+    text-align:center;
+    transition: all 0.25s;
+}
+
+
+.containercard .card img{
+    width: 80%;
+    height: 65%;
+}
+
+.containercard .card h4{
+    font-weight: 700;
+}
+
+.containercard .card p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.containercard .card a{
+    font-weight: 100;
+    text-decoration: none;
+    color: #3498db;
+}*/
+
+.link{
+    color:black;
+    text-decoration: none;
+}
+
+/*
+.cajaproducto{
+    float: left;
+    vertical-align: text-top;
+    display: flex;
+    position: flex;
+    border: 5px solid #3ec48300;
+    background: #5deaa800;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nombreproducto{
+    float: right;
+}
+
+
+.containercardproduct{
+    width:100%;
+    max-width: 1200px;
+    height: 450px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: left;
+}
+
+.containercardproduct .card{
+    width: 600px;
+    height:400px;
+    box-shadow: 0 0px 0px rgb(0, 0, 0);
+    margin: 10px;
+    text-align:justify;
+    transition: all 0.25s;
+}
+
+
+.containercardproduct .card img{
+    width: 400px;
+    height: 230px;
+}
+
+.containercardproduct .card h4{
+    font-weight: 500;
+}
+
+.containercardproduct .card p{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.containercardproduct .card a{
+    font-weight: 100;
+    text-decoration: none;
+    color: #3498db;
+}*/
+
+.precio{
+    float: left;
+}
+
+a{
+    color: #ffff;
+}
+
+.botonproduct1{
+    border-radius: 15px;
+    width:220px;
+    height:30px;
+    border-color:rgba(112, 128, 144, 0) ;
+}
+
+.botonproduct{
+    width:300px;
+    height:30px;
+    border-color:rgba(112, 128, 144, 0) ;
+}
+
+.pie-pagina{
+    width: 100vw;
+    background-color: #232f3e;
+    margin-top: auto;
+}
+
+.pie-pagina .grupo-1{
+    background-color: #37475A;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-1 small{
+    font-size: 15px;
+}
+
+.pie-pagina .grupo-2{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    line-height: 22px;
+}
+
+.pie-pagina .grupo-3{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pie-pagina .grupo-4{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #131A22;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.line{
+    background-color: #fff;
+    padding: 0.1px;
+}
+
+h5{
+    color:#fff;
+}
+
+.counter {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+}
